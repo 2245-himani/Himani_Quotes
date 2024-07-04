@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Profile_Fragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="center"
+            android:text="Android Developer"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="180sp"
+        android:layout_height="320sp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="140sp"
+            android:layout_height="140sp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="80sp"
+            android:src="@drawable/himani" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250sp"
+            android:fontFamily="@font/inter_bold"
+            android:gravity="center"
+            android:text="HIMANI ILASARIYA"
+            android:textColor="@color/black"
+            android:textSize="28sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="250sp"
+        android:layout_height="320sp"
+        android:layout_marginLeft="185sp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="50sp"
+            android:src="@drawable/line" />
+
+
+        <TextView
+            android:id="@+id/dark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:gravity="center"
+            android:text="Dark mode"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchmode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dark"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35sp"
+            android:layout_marginTop="150sp"
+            android:text="2 years thi android karu chu toy avdatu nathi "
+            android:textColor="#FFC107"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/r2"
+        android:layout_marginTop="1dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20sp"
+            android:fontFamily="@font/worksans"
+            android:text="Profession"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="moj karvi"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="Contact"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="+91 96248 43320"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="180sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="Goto to Male"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="Location"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="215sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="E-mail"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250sp"
+            android:fontFamily="@font/inter_extra_light"
+            android:text="himanidadi023@gmail.com"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
